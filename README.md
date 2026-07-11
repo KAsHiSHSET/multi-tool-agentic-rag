@@ -262,6 +262,8 @@ Generate Netflix microservice architecture.
 
 ---
 
+
+
 # 📂 Project Structure
 
 ```
