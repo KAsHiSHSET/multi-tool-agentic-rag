@@ -5,7 +5,7 @@ import time
 from pathlib import Path
 
 import streamlit as st
-from streamlit_mermaid import st_mermaid
+import streamlit.components.v1 as components
 
 # Add src to path
 sys.path.append(str(Path(__file__).parent))
@@ -15,7 +15,30 @@ from src.document_ingestion.document_processor import DocumentProcessor
 from src.vectorstore.vectorstore import VectorStore
 from src.graph_builder.graph_builder import GraphBuilder
 
+# -------------------------------
+# Mermaid Renderer
+# -------------------------------
 
+def st_mermaid(code: str):
+
+    components.html(
+        f"""
+        <pre class="mermaid">
+{code}
+        </pre>
+
+        <script type="module">
+            import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+
+            mermaid.initialize({{
+                startOnLoad: true,
+                theme: "default"
+            }});
+        </script>
+        """,
+        height=700,
+        scrolling=True,
+    )
 # -------------------------------
 # Page Configuration
 # -------------------------------

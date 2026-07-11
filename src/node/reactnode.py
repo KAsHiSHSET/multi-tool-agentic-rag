@@ -16,6 +16,7 @@ from src.tool.python_tool import python_executor
 from src.tool.diagram_tool import diagram_generator
 from src.tool.sql_tool import sql_generator
 
+
 class RAGNodes:
 
     def __init__(self, retriever, llm):
