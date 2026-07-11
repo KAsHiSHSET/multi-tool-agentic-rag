@@ -257,7 +257,8 @@ Generate Netflix microservice architecture.
 
 ## Diagram Generator
 
-![Diagram](assets/diagram.png)
+<img width="864" height="766" alt="image" src="https://github.com/user-attachments/assets/631e30e8-177e-46e5-9149-f94ba6967a98" />
+
 
 ---
 
