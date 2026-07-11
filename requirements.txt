@@ -1,22 +1,27 @@
-langchain
-langchain-community
-langgraph
-langchain-groq
-langchain-huggingface
+streamlit==1.46.1
 
-sentence-transformers
-faiss-cpu
+langchain==0.3.26
+langchain-core==0.3.68
+langchain-community==0.3.27
+langgraph==0.5.1
+langchain-groq==0.3.6
+langchain-huggingface==0.3.0
+langchain-experimental==0.3.4
 
-torch
-torchvision
+sentence-transformers==5.0.0
+faiss-cpu==1.11.0
+torch==2.7.1
+torchvision==0.22.1
 
-streamlit
-python-dotenv
-beautifulsoup4
-requests
-wikipedia
-pypdf
+transformers==4.53.2
+huggingface-hub==0.33.4
 
-pydantic
-arxiv 
-langchain-experimental
+python-dotenv==1.1.1
+beautifulsoup4==4.13.4
+requests==2.32.4
+wikipedia==1.4.0
+pypdf==5.8.0
+pydantic==2.11.7
+arxiv==2.2.0
+PyGithub==2.6.1
+numexpr==2.11.0
