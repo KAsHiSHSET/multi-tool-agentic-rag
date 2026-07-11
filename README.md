@@ -25,7 +25,6 @@ Deployed link for project:- [link](https://multi-tool-agentic-rag-kashish.stream
 
 # 🏗 Architecture
 
-![Architecture](assets/architecture.png)
 
 The system follows an Agentic workflow:
 
