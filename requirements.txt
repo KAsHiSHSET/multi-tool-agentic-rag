@@ -20,3 +20,4 @@ pypdf
 pydantic
 arxiv 
 langchain-experimental
+streamlit-mermaid
