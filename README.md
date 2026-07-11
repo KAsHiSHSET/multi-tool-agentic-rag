@@ -376,7 +376,7 @@ streamlit run streamlit_app.py
 
 **Kashish Seth**
 
-- LinkedIn: 
+- LinkedIn: https://www.linkedin.com/in/kashish-seth-6097182bb
 - GitHub: https://github.com/KAsHiSHSET
 
 ---
