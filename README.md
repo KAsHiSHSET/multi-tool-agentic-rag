@@ -5,7 +5,7 @@ An intelligent **Agentic Retrieval-Augmented Generation (RAG)** system built usi
 Unlike traditional RAG chatbots, this project uses a **ReAct-based AI Agent** capable of selecting specialized tools autonomously to answer different categories of user queries, including document retrieval, GitHub repository analysis, research paper search, SQL generation, Python code generation, architecture diagram generation, and mathematical reasoning.
 
 
-Deployed link for project:- [link](https://multi-tool-agentic-rag-kashish.streamlit.app/)
+Deployed link for project:- [link](https://multi-agent--rag---platformkashish.streamlit.app/)
 ---
 
 # 🚀 Features
